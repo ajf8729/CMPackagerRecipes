@@ -39,6 +39,6 @@ $Parameters = @{
     'Verbose'               = $true
 }
 
-Import-Module -FullyQualifiedName "..\CMPackager\CMPackager.psm1" -Force
+Import-Module -FullyQualifiedName "..\..\CMPackager\CMPackager.psm1" -Force
 
 New-CMPApplication @Parameters
